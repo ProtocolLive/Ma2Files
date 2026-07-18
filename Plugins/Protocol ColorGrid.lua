@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.04
+-- Version 2026.07.18.05
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7087,6 +7087,7 @@ local function ImagesCreate()
       ImageI = ImageI + 1
     end
   end
+  os.remove(Dir .. '/importexport/imagem.xml')
 end
 
 local function ExecutorsCreate()
@@ -7307,6 +7308,7 @@ local function MacrosCreate()
       Macro = Macro + 1
     end
   end
+  os.remove(Dir .. '/macros/macro.xml')
 end
 
 local function MacroToLayout()
@@ -7383,6 +7385,7 @@ local function MacroToLayout()
   Cmd('Import "layout" At Layout ' .. LayoutStart .. ' /nc')
   Cmd('Label Layout ' .. LayoutStart .. ' ColorGrid')
   Cmd('Layout ' .. LayoutStart)
+  os.remove(Dir .. '/importexport/layout.xml')
 end
 
 local function ColorGrid()
@@ -7414,9 +7417,6 @@ local function ColorGrid()
   ExecutorsCreate()
   MacrosCreate()
   MacroToLayout()
-  os.remove(Dir .. '/importexport/imagem.xml')
-  os.remove(Dir .. '/macros/macro.xml')
-  os.remove(Dir .. '/importexport/layout.xml')
   Msgbox('ColorGrid', 'ColorGrid criado com sucesso!')
 end
 
