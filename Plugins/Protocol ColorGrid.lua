@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.06
+-- Version 2026.07.18.07
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7297,7 +7297,7 @@ local function MacrosCreate()
           <text>Macro "LIMPA ]] .. Property(Grupo, 'Name') .. [["</text>
         </Macroline>
         <Macroline index="3">
-          <text>Copy Image ]] .. ImageStart + i .. [[ At ]] .. ImageStart + 12 * (2 + index) + i .. [[ /nc</text>
+          <text>Copy Image "FILLED ]] .. Gel .. [[" At ]] .. ImageStart + 12 * (2 + index) + i .. [[ /nc</text>
         </Macroline>
       ]]
       handle = io.open(Dir .. '/macros/macro.xml', 'w')
