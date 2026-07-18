@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.03
+-- Version 2026.07.18.04
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -29,7 +29,7 @@ local function Explode(sep, str)
 end
 
 --Plugin
-local Debug = true
+local Debug = false
 local Gels = Handle('Gels."MA colors"')
 local Dir = VarGet('PATH')
 local GroupsCount = 0
@@ -7393,7 +7393,7 @@ local function ColorGrid()
     Msgbox('ColorGrid', 'Número inválido')
     return
   end
-  ExecutorPage = tonumber(Input('Página do executor inicial', '1'))
+  ExecutorPage = tonumber(Input('Página do executor inicial', '100'))
   ExecutorStart = tonumber(Input('Executor inicial (Total: ' .. GroupsCount .. ')', '101'))
   if ExecutorPage == nil
   or ExecutorStart == nil then
