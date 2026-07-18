@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.01
+-- Version 2026.07.18.02
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7408,7 +7408,7 @@ local function ColorGrid()
     Msgbox('ColorGrid', 'Número inválido')
     return
   end
-  --ImagesCreate()
+  ImagesCreate()
   ExecutorsCreate()
   MacrosCreate()
   MacroToLayout()
