@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.05
+-- Version 2026.07.18.06
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7348,7 +7348,7 @@ local function MacroToLayout()
           <CObject name="0 100">
             <No>13</No>
             <No>1</No>
-            <No>]] .. MacroStart + 2 + (12 * index + 1) + i .. [[</No>
+            <No>]] .. MacroStart + 2 + (12 * index + 1) + i + 1 .. [[</No>
           </CObject>
         </LayoutCObject>
       ]])
