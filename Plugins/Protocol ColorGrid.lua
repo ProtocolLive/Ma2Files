@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.00
+-- Version 2026.07.18.01
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -42,7 +42,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
     <Info datetime="2020-12-01T09:10:09" showfile="ColorGrid" />
-    <UserImage index="463" name="Filled White" hasTransparency="false" width="85" height="81">
+    <UserImage index="463" name="FILLED WHITE" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAIAAAAsBn0bAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVHhe7c+xAcAwDMMwp///7AzNFwQWaeUAWeftzO6+
@@ -330,7 +330,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:10:21" showfile="ColorGrid" />
-    <UserImage index="464" name="Filled Red" hasTransparency="false" width="85" height="81">
+    <UserImage index="464" name="FILLED RED" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADbSURBVHhe7d07CoBADEDB6P3v7Ae0sJV93QyE7R8h7W4z
@@ -620,7 +620,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:10:32" showfile="ColorGrid" />
-    <UserImage index="465" name="Filled Amber" hasTransparency="false" width="85" height="81">
+    <UserImage index="465" name="FILLED AMBER" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADhSURBVHhe7d05CgMxEADB8X588cf3CJQ4NKizKhCauBmU
@@ -910,7 +910,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:10:44" showfile="ColorGrid" />
-    <UserImage index="466" name="Filled Yellow" hasTransparency="false" width="85" height="81">
+    <UserImage index="466" name="FILLED YELLOW" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADeSURBVHhe7d07CoAwEEDB1fuf2U9hoaWQ181AyNaPJW22
@@ -1200,7 +1200,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:10:56" showfile="ColorGrid" />
-    <UserImage index="467" name="Filled Green" hasTransparency="false" width="85" height="81">
+    <UserImage index="467" name="FILLED GREEN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADcSURBVHhe7d07CoBADEDB6P3P7Kew0FLY181ASP8I2+42
@@ -1490,7 +1490,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:11:10" showfile="ColorGrid" />
-    <UserImage index="468" name="Filled SeaGreen" hasTransparency="false" width="85" height="81">
+    <UserImage index="468" name="FILLED SEAGREEN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADgSURBVHhe7d05CgMxEADB8X588cf3CJQ4NKizKhCauBmU
@@ -1780,7 +1780,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:11:22" showfile="ColorGrid" />
-    <UserImage index="469" name="Filled Cyan" hasTransparency="false" width="85" height="81">
+    <UserImage index="469" name="FILLED CYAN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADeSURBVHhe7d07CoAwEEDB1fuf2U8hiKWQ181AyNaPJW22
@@ -2070,7 +2070,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:11:34" showfile="ColorGrid" />
-    <UserImage index="470" name="Filled Blue" hasTransparency="false" width="85" height="81">
+    <UserImage index="470" name="FILLED BLUE" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADcSURBVHhe7d07CoBADEDB6P3P7KcQBDthXzcDIf0jbLvb
@@ -2360,7 +2360,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:11:45" showfile="ColorGrid" />
-    <UserImage index="471" name="Filled Lavender" hasTransparency="false" width="85" height="81">
+    <UserImage index="471" name="FILLED LAVENDER" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADgSURBVHhe7d0xCsMwEADBiz8e/HHbKQwmpUHbzYDQ1cuh
@@ -2650,7 +2650,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:11:56" showfile="ColorGrid" />
-    <UserImage index="472" name="Filled Violet" hasTransparency="false" width="85" height="81">
+    <UserImage index="472" name="FILLED VIOLET" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADhSURBVHhe7d0xCsMwEADBiz8e/HHbKVw4pUHbzYDQ1cuh
@@ -2940,7 +2940,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:12:08" showfile="ColorGrid" />
-    <UserImage index="473" name="Filled Pink" hasTransparency="false" width="85" height="81">
+    <UserImage index="473" name="FILLED PINK" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADhSURBVHhe7d05CgMxEADB8X588cf3CJQ4NKizKhCauBmU
@@ -3230,7 +3230,7 @@ local ImagesFilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:12:28" showfile="ColorGrid" />
-    <UserImage index="474" name="Filled Magenta" hasTransparency="false" width="85" height="81">
+    <UserImage index="474" name="FILLED MAGENTA" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADdSURBVHhe7d05DoAwDABBw//fzFFQQIuy3UwUuV9ZabPN
@@ -3522,7 +3522,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:07:20" showfile="ColorGrid" />
-    <UserImage index="447" name="Unfilled White" hasTransparency="false" width="85" height="81">
+    <UserImage index="447" name="UNFILLED WHITE" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAIAAAAsBn0bAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHaSURBVHhe7c+xjQRBEMPAyz/pf6cIKIaeLZOy9Pt8Pp/f
@@ -3816,7 +3816,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:07:37" showfile="ColorGrid" />
-    <UserImage index="448" name="Unfilled Red" hasTransparency="false" width="85" height="81">
+    <UserImage index="448" name="UNFILLED RED" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADpSURBVHhe7dw7CgMxDEBBJfe/cz5sAtlqIeh1M2DcP4Tc
@@ -4106,7 +4106,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:08:06" showfile="ColorGrid" />
-    <UserImage index="449" name="Unfilled Amber" hasTransparency="false" width="85" height="81">
+    <UserImage index="449" name="UNFILLED AMBER" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADtSURBVHhe7d2xCsIwFEDRZ39c/HG1YAadipC7nQMhmS+P
@@ -4396,7 +4396,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:08:17" showfile="ColorGrid" />
-    <UserImage index="450" name="Unfilled Yellow" hasTransparency="false" width="85" height="81">
+    <UserImage index="450" name="UNFILLED YELLOW" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADqSURBVHhe7d0xCoQwFADRr/c/s7sLWriVCJnuPRBTD5+k
@@ -4686,7 +4686,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:08:30" showfile="ColorGrid" />
-    <UserImage index="451" name="Unfilled Green" hasTransparency="false" width="85" height="81">
+    <UserImage index="451" name="UNFILLED GREEN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADoSURBVHhe7d0xCoRAFAXBv97/zK4GBi4biDCdVYFM3jw0
@@ -4976,7 +4976,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:08:41" showfile="ColorGrid" />
-    <UserImage index="452" name="Unfilled SeaGreen" hasTransparency="false" width="85" height="81">
+    <UserImage index="452" name="UNFILLED SEAGREEN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADsSURBVHhe7d07CsMwEEDBtS8efPF8ChVJZQJ63QwIqX4s
@@ -5266,7 +5266,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:08:54" showfile="ColorGrid" />
-    <UserImage index="453" name="Unfilled Cyan" hasTransparency="false" width="85" height="81">
+    <UserImage index="453" name="UNFILLED CYAN" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADqSURBVHhe7d0xCsMwEADBi///ZjspBIkrE9B2M2Csejmk
@@ -5556,7 +5556,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:09:08" showfile="ColorGrid" />
-    <UserImage index="454" name="Unfilled Blue" hasTransparency="false" width="85" height="81">
+    <UserImage index="454" name="UNFILLED BLUE" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADpSURBVHhe7d1BCoNAFAXBr/c/s8aFICQQEpjeVYHMvnno
@@ -5846,7 +5846,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:09:22" showfile="ColorGrid" />
-    <UserImage index="455" name="Unfilled Lavender" hasTransparency="false" width="85" height="81">
+    <UserImage index="455" name="UNFILLED LAVENDER" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADsSURBVHhe7d07CsMwEEDBdS4efPF8CkGSygT0uhkwVv1Y
@@ -6136,7 +6136,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:09:36" showfile="ColorGrid" />
-    <UserImage index="456" name="Unfilled Violet" hasTransparency="false" width="85" height="81">
+    <UserImage index="456" name="UNFILLED VIOLET" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADsSURBVHhe7d0xCsMwEADBSz4e/PHEAbtwKhPQdjNgrHo5
@@ -6426,7 +6426,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:09:46" showfile="ColorGrid" />
-    <UserImage index="457" name="Unfilled Pink" hasTransparency="false" width="85" height="81">
+    <UserImage index="457" name="UNFILLED PINK" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADtSURBVHhe7d2xCsIwFEDRZ39c/HGtYAadipC7nQMhmS+P
@@ -6716,7 +6716,7 @@ local ImagesUnfilled = {
   [[<?xml version="1.0" encoding="utf-8"?>
   <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
     <Info datetime="2020-12-01T09:09:58" showfile="hierher" />
-    <UserImage index="458" name="Unfilled Magenta" hasTransparency="false" width="85" height="81">
+    <UserImage index="458" name="UNFILLED MAGENTA" hasTransparency="false" width="85" height="81">
         <Image>
             iVBORw0KGgoAAAANSUhEUgAAAFUAAABRCAYAAACjZOpMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
             YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAADpSURBVHhe7d0xCoQwFADRv97/zLsKWriVIJnuPZH0wyfp
