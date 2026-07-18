@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.16.00
+-- Version 2026.07.18.00
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7004,15 +7004,6 @@ local ImagesUnfilled = {
     </UserImage>
   </MA>]]
 }
-local ImageBlank = [[<?xml version="1.0" encoding="UTF-8"?>
-  [[<?xml version="1.0" encoding="utf-8"?>
-  <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
-    <Info datetime="2020-12-01T09:07:20" showfile="Blank" />
-    <UserImage index="447" name="WhiteUnfilled" hasTransparency="false" width="85" height="81">
-      <Thumbnail>AA</Thumbnail>
-    </UserImage>
-  </MA>
-]]
 
 local function GroupsGet()
   local handle
