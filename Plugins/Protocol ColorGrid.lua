@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.07.18.02
+-- Version 2026.07.18.03
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7061,6 +7061,7 @@ local function ImagesCreate()
     if Gel == 'Orange' then
       Gel = 'Amber'
     end
+    Gel = string.upper(Gel)
     Cmd('Label Image ' .. ImageI .. ' "TODOS ' .. Gel .. '"')
     ImageI = ImageI + 1
   end
@@ -7081,6 +7082,7 @@ local function ImagesCreate()
       if Gel == 'Orange' then
         Gel = 'Amber'
       end
+      Gel = string.upper(Gel)
       Cmd('Label Image ' .. ImageI .. ' "' .. Property(Grupo, 'Name') .. ' ' .. Gel .. '"')
       ImageI = ImageI + 1
     end
@@ -7170,7 +7172,7 @@ local function MacrosCreate()
       <Info datetime="2020-12-03T08:17:07" showfile="ColorGrid" />
       <Macro index="1" name="LIMPA TODOS">
         <Macroline index="0">
-          <text>Copy Image ]] .. ImageStart + 12 .. [[ Thru ]] .. ImageStart + 12 + 11 .. [[ At ]] .. ImageStart + 12 * 2 .. [[ /nc</text>
+          <text>Copy Image "UNFILLED WHITE" Thru "UNFILLED MAGENTA" At ]] .. ImageStart + 12 * 2 .. [[ /nc</text>
         </Macroline>
       </Macro>
     </MA>
@@ -7188,7 +7190,7 @@ local function MacrosCreate()
         <Info datetime="2020-12-03T08:17:07" showfile="ColorGrid" />
         <Macro index="1" name="LIMPA ]] .. Property(Grupo, 'Name') .. [[">
           <Macroline index="0">
-            <text>Copy Image ]] .. ImageStart + 12 .. [[ Thru ]] .. ImageStart + 12 + 11 .. [[ At ]] .. ImageStart + 12 * (index + 2) .. [[ /nc</text>
+            <text>Copy Image "UNFILLED WHITE" Thru "UNFILLED MAGENTA" At ]] .. ImageStart + 12 * (index + 2) .. [[ /nc</text>
           </Macroline>
         </Macro>
       </MA>
@@ -7214,7 +7216,7 @@ local function MacrosCreate()
       <?xml version="1.0" encoding="utf-8"?>
       <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.0/MA.xsd" major_vers="3" minor_vers="9" stream_vers="0">
         <Info datetime="2020-12-03T08:17:07" showfile="ColorGrid" />
-        <Macro index="1" name="TODOS ]]..Gel..[[">
+        <Macro index="1" name="TODOS ]] .. Gel .. [[">
     ]]
     j = 0
     for index, Grupo in pairs(Groups) do
@@ -7252,7 +7254,7 @@ local function MacrosCreate()
     end
     xml = xml .. [[
       <Macroline index="]] .. j .. [[">
-        <text>Copy Image ]] .. ImageStart + i .. [[ At ]] .. table.concat(temp, '+') .. [[ /nc</text>
+        <text>Copy Image "FILLED ]] .. Gel .. [[" At ]] .. table.concat(temp, '+') .. [[ /nc</text>
       </Macroline>
     ]]
     j = j + 1
