@@ -1,6 +1,6 @@
 -- Protocol Corporation Ltda
 -- t.me/FabioCarpi
--- Version 2026.09.18.00
+-- Version 2026.09.19.00
 
 -- Ma functions
 local Cmd = gma.cmd
@@ -7312,8 +7312,8 @@ local function MacrosCreate()
 end
 
 local function MacroToLayout()
-  local x = 0
-  local y = 0
+  local x = 0.5
+  local y = 0.5
   local macros = {}
 
   --Todos
@@ -7336,7 +7336,7 @@ local function MacroToLayout()
 
   --Grupos
   for index, Grupo in pairs(Groups) do
-    x = 0
+    x = 0.5
     y = y + 1
     for i = 1, 12 do
       table.insert(macros, [[
@@ -7358,7 +7358,7 @@ local function MacroToLayout()
 
   y = y + 1.5
   table.insert(macros, [[
-    <LayoutCObject center_x="0" center_y="]] .. y .. [[" show_name="1">
+    <LayoutCObject center_x="0.5" center_y="]] .. y .. [[" show_name="1">
       <image />
       <CObject name="0 100">
         <No>13</No>
