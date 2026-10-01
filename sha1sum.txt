@@ -1,3 +1,5 @@
 2e40b110547ed91284ca2a972143616ec800c28f  LICENSE
-8f1f13322fc5e5583011b3f2b43549d9a6be9f0d  Plugins\Protocol ColorGrid.lua
+80719ff75e58d38ba29f2f633dedf58fe0e92041  Plugins\Protocol ColorGrid.lua
 f02edbb6d34511aef3922f9a8b40d1f7da82a01f  Plugins\Protocol ColorGrid.xml
+e1a2dfdf9b548fc29457ff0c096085a0147a72ec  Plugins\TakeSelection.lua
+e07a5e27097f316c9882a6fa08f1c227cf0174d3  Plugins\TakeSelection.xml
